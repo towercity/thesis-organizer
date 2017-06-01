@@ -7,6 +7,25 @@
     const Path = require('path');
     const Handlebars = require('handlebars');
     const Inert = require('inert');
+    const Sass = require('node-sass');
+    const fs = require('fs');
+
+    Sass.render({
+        file: 'styles/main.scss',
+        outFile: 'public/main.css'
+    }, function(error, result) {
+        if (!error) {
+            fs.writeFile('public/main.css', result.css, function(err) {
+                if (!err) {
+                    console.log('sass compiled');
+                } else if (err) {
+                    console.log(err);
+                }
+            });
+        } else if (error) {
+            console.log(error);
+        }
+    });
 
     const server = new Hapi.Server({
         connections: {

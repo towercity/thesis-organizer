@@ -15,8 +15,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-sass');
 
 	grunt.registerTask('myTask', 'foos around', function() {
-		grunt.log.writeln('Currently running the "default" task.');
+		grunt.log.writeln('Currently running the "default" task, my boys!');
 	});
 
-	grunt.registerTask('default', ['myTask']);
+	grunt.registerTask('default', ['myTask', 'sass']);
 }
