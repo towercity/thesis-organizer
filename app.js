@@ -10,6 +10,8 @@
     const Sass = require('node-sass');
     const fs = require('fs');
 
+    const tools = require('./tools');
+
     Sass.render({
         file: 'styles/main.scss',
         outFile: 'public/main.css'
@@ -78,12 +80,14 @@
     server.route({
     	method: 'GET',
     	path: '/display',
-    	handler: {
-    		view: {
-    			template: 'display'
-    		}
+    	handler: function(request, reply) {
+            var bib = tools.dummyJSON.bib;
+
+            reply.view('display', {
+                bib: bib
+            });
     	}
-    })
+    });
 
     server.start((err) => {
         if (err) {
