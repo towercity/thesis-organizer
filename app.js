@@ -56,6 +56,16 @@
         }
     });
 
+    server.route({
+    	method: 'GET',
+    	path: '/display',
+    	handler: {
+    		view: {
+    			template: 'display'
+    		}
+    	}
+    })
+
     server.start((err) => {
         if (err) {
             throw err;

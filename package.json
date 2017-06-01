@@ -1,25 +1,26 @@
 {
-    "name": "thesis-organizer",
-    "version": "0.0.1",
-    "description": "A simple data organization app for my master's thesis",
-    "main": "app.js",
-    "window": {
-        "toolbar": false,
-        "resizable": true,
-        "fullscreen": false,
-        "width": 800,
-        "height": 600
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-        "blipp": "^2.3.0",
-        "handlebars": "^4.0.6",
-        "hapi": "^16.1.0",
-        "vision": "^4.1.1",
-        "inert": "^4.1.0"
-    },
-    "author": "mjn",
-    "license": "ISC"
+  "name": "thesis-organizer",
+  "version": "0.0.1",
+  "description": "A simple data organization app for my master's thesis",
+  "main": "app.js",
+  "window": {
+    "toolbar": false,
+    "resizable": true,
+    "fullscreen": false,
+    "width": 800,
+    "height": 600
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mjn",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "blipp": "^2.3.0",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.0",
+    "vision": "^4.1.1",
+    "inert": "^4.1.0" 
+  }
 }
