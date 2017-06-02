@@ -77,16 +77,24 @@
         }
     });
 
+    // TODO: make dynamic -- view/{*param}, and pull that param from the json; make bib helper into table helper
     server.route({
-    	method: 'GET',
-    	path: '/display',
-    	handler: function(request, reply) {
-            var bib = tools.dummyJSON.bib;
+        method: 'GET',
+        path: '/view/{section}',
+        handler: function(request, reply) {
+            var section = encodeURIComponent(request.params.section);
+            console.log(section);
 
-            reply.view('display', {
-                bib: bib
-            });
-    	}
+            var table = tools.dummyJSON[section];
+
+            if (!table) {
+                reply().redirect('/404');
+            } else {
+                reply.view('table', {
+                    table: table
+                });
+            }
+        }
     });
 
     server.start((err) => {

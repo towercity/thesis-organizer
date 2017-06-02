@@ -6,7 +6,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Uncle Konig",
             "dates read": "Oct-14",
-            "purchased": null,
+            "purchased": '',
             "note": "Parodying the dark mythos"
         }, {
             "title": "The Confidence-Man",
@@ -14,7 +14,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Uncle Konig",
             "dates read": "Apr-15",
-            "purchased": null,
+            "purchased": '',
             "note": "Con men and monologs"
         }, {
             "title": "The Adventures of Huckleberry Finn",
@@ -22,7 +22,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Uncle Konig",
             "dates read": "Apr-15",
-            "purchased": null,
+            "purchased": '',
             "note": "Journeys and critique"
         }, {
             "title": "2666",
@@ -30,7 +30,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Nebraska",
             "dates read": "May-15",
-            "purchased": null,
+            "purchased": '',
             "note": "Goth stuff, history, inequality of internationalism"
         }, {
             "title": "Hiroshima",
@@ -38,7 +38,7 @@ module.exports = {
             "genre": "Non-Fiction",
             "connections": "From Above",
             "dates read": "Aug-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Atomic bomb details, basically"
         }, {
             "title": "Mayumi and the Sea of Happiness",
@@ -46,7 +46,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Aug-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Dreaming in Cuban",
@@ -54,7 +54,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Sep-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Annie John",
@@ -62,7 +62,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Sep-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Dark powerful prose; dark desires"
         }, {
             "title": "Salvage the Bones",
@@ -70,7 +70,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Sep-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Louisiana, even though it's Mississippi"
         }, {
             "title": "Oranges are not the Only Fruit",
@@ -78,7 +78,7 @@ module.exports = {
             "genre": "Memoir",
             "connections": "",
             "dates read": "Sep-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Blackass",
@@ -86,7 +86,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Oct-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Homegoing",
@@ -94,7 +94,7 @@ module.exports = {
             "genre": "Linked Short Stories",
             "connections": "",
             "dates read": "Oct-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Historical fiction (?)"
         }, {
             "title": "Music of the Swamp",
@@ -102,7 +102,7 @@ module.exports = {
             "genre": "Linked Short Stories",
             "connections": "",
             "dates read": "Oct-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "The Blazing World",
@@ -110,7 +110,7 @@ module.exports = {
             "genre": "Old Novel",
             "connections": "",
             "dates read": "Nov-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Absurd fantasy"
         }, {
             "title": "Love Medicine",
@@ -118,7 +118,7 @@ module.exports = {
             "genre": "Linked Short Stories",
             "connections": "",
             "dates read": "Nov-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Family scenes; multi-character collection"
         }, {
             "title": "The Book of Margery Kempe",
@@ -126,7 +126,7 @@ module.exports = {
             "genre": "Memoir",
             "connections": "",
             "dates read": "Nov-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Divine inspiration and madness"
         }, {
             "title": "The Little Stranger",
@@ -134,7 +134,7 @@ module.exports = {
             "genre": "Gothic Novel",
             "connections": "",
             "dates read": "Nov-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "The Revolutionaries Try Again",
@@ -142,7 +142,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Experiments, revisions, politics"
         }, {
             "title": "A Curious Land",
@@ -150,7 +150,7 @@ module.exports = {
             "genre": "Linked Short Stories",
             "connections": "",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Soft, kind stories"
         }, {
             "title": "Drown",
@@ -158,7 +158,7 @@ module.exports = {
             "genre": "Linked Short Stories",
             "connections": "",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Literary fiction but, like, good"
         }, {
             "title": "Oscar Wao",
@@ -166,7 +166,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Putting personal events into political contexts"
         }, {
             "title": "This is How You Lose Her",
@@ -174,7 +174,7 @@ module.exports = {
             "genre": "Linked Short Stories",
             "connections": "",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Nilda: that’s all I gotta say"
         }, {
             "title": "The Bear",
@@ -182,7 +182,7 @@ module.exports = {
             "genre": "Novella",
             "connections": "The Revolution",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Gilead",
@@ -190,7 +190,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Dec-16",
-            "purchased": null,
+            "purchased": '',
             "note": "Direct Addresss"
         }, {
             "title": "Open City",
@@ -206,7 +206,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "In Russia",
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Inner/outer perspective difference; the description of pictures and family stufff in Ch1"
         }, {
             "title": "Bright Sided ",
@@ -214,7 +214,7 @@ module.exports = {
             "genre": "Non-Fiction",
             "connections": "A Small Pain",
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": "The cancer cells as individual beings idea"
         }, {
             "title": "In Other Words",
@@ -222,7 +222,7 @@ module.exports = {
             "genre": "Memoir",
             "connections": "",
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Bark: Stories",
@@ -230,7 +230,7 @@ module.exports = {
             "genre": "Short Story Collection",
             "connections": "",
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": "How NOT to write about imperialism, tbh"
         }, {
             "title": "Wolf Whistle",
@@ -238,7 +238,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "The Poor Man Needs No Capital",
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Dictionary of the Khazars",
@@ -246,7 +246,7 @@ module.exports = {
             "genre": "Novel",
             "connections": ['Moster stories', 'Uncle Konig'],
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Use of myth and past to describe present; false truth"
         }, {
             "title": "Treaty Shirts",
@@ -254,7 +254,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Jan-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Valeria's Last Stand",
@@ -270,7 +270,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Korea Story'",
             "dates read": "Feb-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Dark absurdism, empire"
         }, {
             "title": "The Trickster of Liberty",
@@ -278,7 +278,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Uncle Konig",
             "dates read": "Feb-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Trickster figures; the use of slippery humor"
         }, {
             "title": "The Elephant Vanishes",
@@ -286,7 +286,7 @@ module.exports = {
             "genre": "Short Story Collection",
             "connections": "In Russia",
             "dates read": "Mar-17",
-            "purchased": null,
+            "purchased": '',
             "note": "A calm, tender take on unreal fiction; The Chinese-->In Russia"
         }, {
             "title": "The Sharpshooter Blues",
@@ -294,7 +294,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "The Poor Man Needs No Capital",
             "dates read": "Mar-17",
-            "purchased": null,
+            "purchased": '',
             "note": "The use of unreal spaces to open up character's confessional depictions of desires"
         }, {
             "title": "Buddha in the Attic",
@@ -302,7 +302,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Mar-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Everything is Illuminated",
@@ -310,7 +310,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Mar-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Another Brooklyn",
@@ -318,7 +318,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "Mar-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Nickel and Dimed",
@@ -326,7 +326,7 @@ module.exports = {
             "genre": "Non-Fiction",
             "connections": "",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "My Brilliant Friend",
@@ -334,7 +334,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "In Russia",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Reflective prose"
         }, {
             "title": "The Story of a New Name",
@@ -342,7 +342,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "In Russia",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "The Weird and the Eerie",
@@ -350,7 +350,7 @@ module.exports = {
             "genre": "Non-Fiction",
             "connections": "",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Uses of Unreality"
         }, {
             "title": "Driving After Class",
@@ -358,7 +358,7 @@ module.exports = {
             "genre": "Non-Fiction",
             "connections": "",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Views of class anxieties in American Suburbs; empty homes, pretty facades; Suburban fears"
         }, {
             "title": "In the Penal Colony",
@@ -366,7 +366,7 @@ module.exports = {
             "genre": "Short Story",
             "connections": "",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "The Unreal and the Real, Vol. 2",
@@ -374,7 +374,7 @@ module.exports = {
             "genre": "Short Story Collection",
             "connections": "Monster Stories",
             "dates read": "Apr-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Anthropology"
         }, {
             "title": "The Road",
@@ -390,7 +390,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "May-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Using multiple story threads together (?)"
         }, {
             "title": "The Secret History of Twin Peaks",
@@ -398,7 +398,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "Nebraska",
             "dates read": "May-17",
-            "purchased": null,
+            "purchased": '',
             "note": "Mythic histories of America"
         }, {
             "title": "The Trial",
@@ -406,7 +406,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "May-17",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "How the Aztecs Predicted the Apocolypse",
@@ -414,7 +414,7 @@ module.exports = {
             "genre": "Essay",
             "connections": "Nebraska",
             "dates read": "May-17",
-            "purchased": null,
+            "purchased": '',
             "note": "https://theoutline.com/post/1485/how-the-aztecs-predicted-the-apocalypse; views of apocolypse, endlessness"
         }, {
             "title": "Capitalism: A Ghost Story",
@@ -422,7 +422,7 @@ module.exports = {
             "genre": "Essay Collection",
             "connections": "Nebraska",
             "dates read": "May-17",
-            "purchased": null,
+            "purchased": '',
             "note": "ways to use myth _materially_, not just abstractly"
         }, {
             "title": "End Times for Humanity",
@@ -430,7 +430,7 @@ module.exports = {
             "genre": "Essay",
             "connections": "Nebraska",
             "dates read": "Jun-17",
-            "purchased": null,
+            "purchased": '',
             "note": "An example of a distant-academic look at apocolypse, like what Ilona might write, tho one I would contest for a number of reasons, like those I would contest against Ilona: https://aeon.co/essays/the-human-world-is-not-more-fragile-now-it-always-has-been"
         }, {
             "title": "Where I'm Calling From ",
@@ -438,7 +438,7 @@ module.exports = {
             "genre": "Short Story Collection",
             "connections": "",
             "dates read": "",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Kafka on the Shore",
@@ -454,7 +454,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }, {
             "title": "Tristam Shandy",
@@ -462,7 +462,7 @@ module.exports = {
             "genre": "Novel",
             "connections": "",
             "dates read": "",
-            "purchased": null,
+            "purchased": '',
             "note": ""
         }]
     }
