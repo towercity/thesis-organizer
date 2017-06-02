@@ -1,6 +1,6 @@
 module.exports = {
     dummyJSON: {
-        bib: [{
+        bibliography: [{
             "title": "Blood Meridian",
             "author": "McCarthy, Cormac",
             "genre": "Novel",

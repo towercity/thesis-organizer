@@ -89,7 +89,7 @@
                 reply().redirect('/404');
             } else {
                 reply.view('table', {
-                    table: table
+                    tableData: table
                 });
             }
         }
