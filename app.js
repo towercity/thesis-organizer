@@ -9,8 +9,11 @@
     const Inert = require('inert');
     const Sass = require('node-sass');
     const fs = require('fs');
+    const Sequelize = require('sequelize');
 
     const tools = require('./tools');
+
+    var sequelize;
 
     Sass.render({
         file: 'styles/main.scss',
@@ -42,6 +45,55 @@
     server.connection({
         port: (process.env.PORT || 3000)
     });
+
+    if (process.env.DATABASE_URL) {
+        // the application is executed on Heroku ... use the postgres database
+        sequelize = new Sequelize(process.env.DATABASE_URL, {
+            dialect: 'postgres',
+            protocol: 'postgres',
+            logging: true //false
+        })
+    } else {
+        sequelize = new Sequelize('db', 'username', 'password', {
+            host: 'localhost',
+            dialect: 'sqlite',
+
+            pool: {
+                max: 5,
+                min: 0,
+                idle: 10000
+            },
+
+            // SQLite only
+            storage: 'db.sqlite'
+        });
+    }
+
+    var databases = {
+        bibliography: sequelize.define('bib', {
+            title: {
+                type: Sequelize.STRING
+            },
+            author: {
+                type: Sequelize.STRING
+            },
+            genre: {
+                type: Sequelize.STRING
+            },
+            connections: {
+                type: Sequelize.STRING
+            },
+            read: {
+                type: Sequelize.STRING
+            },
+            purchased: {
+                type: Sequelize.STRING
+            },
+            note: {
+                type: Sequelize.TEXT('long')
+            },
+        })
+    }
 
     server.register([Blipp, Inert, Vision], () => {});
 
@@ -102,6 +154,21 @@
             view: {
                 template: '404'
             }
+        }
+    });
+
+    server.route({
+        method: 'GET',
+        path: '/createDB',
+        handler: function(request, reply) {
+            // force: true will drop the table if it already exists
+            for (var data in databases) {
+                console.log(data);
+                databases[data].sync({
+                    force: true
+                });
+            }
+            reply("Databases Created")
         }
     });
 
