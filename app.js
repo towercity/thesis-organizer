@@ -11,7 +11,7 @@
     const fs = require('fs');
     const Sequelize = require('sequelize');
 
-    const tools = require('./tools');
+    const structures = require('./structures');
 
     var sequelize;
 
@@ -135,7 +135,7 @@
         handler: function(request, reply) {
             var section = encodeURIComponent(request.params.section);
 
-            var table = tools.dummyJSON[section];
+            var table = structures.dummyJSON[section];
 
             if (!table) {
                 reply().redirect('/404');
@@ -171,6 +171,23 @@
             reply("Databases Created")
         }
     });
+
+    server.route({
+        method: 'GET',
+        path: '/add/{section}',
+        handler: function(request, reply) {
+            var section = encodeURIComponent(request.params.section);
+
+            var form = structures[section];
+
+            if (!form) {
+                reply().redirect('/404');
+            } else {
+                console.log(form);
+                reply().redirect('/view/' + section);
+            }
+        }
+    })
 
     server.start((err) => {
         if (err) {
