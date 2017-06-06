@@ -5,7 +5,11 @@ Handlebars.registerHelper('form', function (context, options) {
 	var parsing = context;
 
 	for (item in parsing) {
-		ret += '<div class="form-group"><label for="' + item + '">' + item + '</label>';
+		//converts camelCase to Camel Case
+		var title = item.replace(/([A-Z]+)*([A-Z][a-z])/g, "$1 $2");
+		title = title.charAt(0).toUpperCase() + title.slice(1);
+
+		ret += '<div class="form-group"><label for="' + item + '">' + title + '</label>';
 
 		if (parsing[item] != 'textarea') {
 			ret += '<input type="' + parsing[item] + '" class="form-control" id="' + item + 'Data">';
