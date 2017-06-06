@@ -70,7 +70,7 @@
     }
 
     var databases = {
-        bibliography: sequelize.define('bib', {
+        bibliography: sequelize.define('bibliography', {
             title: {
                 type: Sequelize.STRING
             },
@@ -90,6 +90,48 @@
                 type: Sequelize.STRING
             },
             note: {
+                type: Sequelize.TEXT('long')
+            },
+        }),
+        stories: sequelize.define('stories', {
+            title: {
+                type: Sequelize.STRING
+            },
+            status: {
+                type: Sequelize.STRING
+            },
+            pages: {
+                type: Sequelize.INTEGER
+            },
+            series  : {
+                type: Sequelize.STRING
+            },
+            notes: {
+                type: Sequelize.TEXT('long')
+            },
+        }),
+        'to-write': sequelize.define('to-write', {
+            title: {
+                type: Sequelize.STRING
+            },
+            series: {
+                type: Sequelize.STRING
+            },
+            description: {
+                type: Sequelize.TEXT('long')
+            },
+        }),
+        quotes: sequelize.define('quotes', {
+            used: {
+                type: Sequelize.STRING
+            },
+            saidBy: {
+                type: Sequelize.STRING
+            },
+            saidIn: {
+                type: Sequelize.STRING
+            },
+            quote: {
                 type: Sequelize.TEXT('long')
             },
         })
