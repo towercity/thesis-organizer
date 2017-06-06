@@ -1,3 +1,10 @@
-<form>
+<form action="/form" method="POST">
+	<div class="form-group">
+		<label for="database">Adding Item To:</label>
+		<input type="text" class="form-control" id="databaseData" name="database" readonly value="{{database}}">
+	</div>
+
     {{#form formData}} {{/form}}
+
+    <input type="submit" value="Submit" class="btn btn-default">
 </form>

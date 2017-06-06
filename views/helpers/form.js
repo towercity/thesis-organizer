@@ -12,7 +12,7 @@ Handlebars.registerHelper('form', function (context, options) {
 		ret += '<div class="form-group"><label for="' + item + '">' + title + '</label>';
 
 		if (parsing[item] != 'textarea') {
-			ret += '<input type="' + parsing[item] + '" class="form-control" id="' + item + 'Data">';
+			ret += '<input type="' + parsing[item] + '" class="form-control" id="' + item + 'Data" name="' + item + '">';
 		} else {
 			ret += '<textarea class="form-control" name="' + item + '" id="' + item + 'Data" rows="5"></textarea>';
 		}

@@ -103,7 +103,7 @@
             pages: {
                 type: Sequelize.INTEGER
             },
-            series  : {
+            series: {
                 type: Sequelize.STRING
             },
             notes: {
@@ -226,11 +226,39 @@
                 reply().redirect('/404');
             } else {
                 reply.view('form', {
-                    formData: form
+                    formData: form,
+                    database: section
                 })
             }
         }
-    })
+    });
+
+    server.route({
+        method: 'POST',
+        path: '/form',
+        handler: function(request, reply) {
+            var payload = request.payload;
+            var database = payload.database;
+            var saveData = {};
+
+            console.log('Importing data...');
+
+            //creates the object to add to the database
+            for (var column in structures[database]) {
+                saveData[column] = payload[column];
+            }
+
+            databases[database].create(saveData);
+
+            console.log('Saving data...');
+
+            databases[database].sync();
+
+            console.log('Data saved');
+
+            reply().redirect('/view/' + database);
+        }
+    });
 
     server.start((err) => {
         if (err) {
