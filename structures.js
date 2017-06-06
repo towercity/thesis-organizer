@@ -474,5 +474,23 @@ module.exports = {
         'dateRead': 'date',
         'purchased': 'text',
         'note': 'textarea'
+    },
+    stories: {
+        'title': 'text',
+        'status': 'text',
+        'pages': 'number',
+        'series': 'text',
+        'notes': 'textarea'
+    },
+    'to-write': {
+        'title': 'text',
+        'series': 'text',
+        'description': 'textarea'
+    },
+    quotes: {
+        'used': 'text',
+        'saidBy': 'text',
+        'saidIn': 'text',
+        'quote': 'textarea'
     }
 }
