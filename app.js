@@ -83,7 +83,7 @@
             connections: {
                 type: Sequelize.STRING
             },
-            read: {
+            dateRead: {
                 type: Sequelize.STRING
             },
             purchased: {
@@ -183,8 +183,9 @@
             if (!form) {
                 reply().redirect('/404');
             } else {
-                console.log(form);
-                reply().redirect('/view/' + section);
+                reply.view('form', {
+                    formData: form
+                })
             }
         }
     })

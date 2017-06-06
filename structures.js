@@ -467,6 +467,12 @@ module.exports = {
         }]
     },
     bibliography: {
-        'talk': 'talk'
+        'title': 'text',
+        'author': 'text',
+        'genre': 'text',
+        'connections': 'text',
+        'dateRead': 'date',
+        'purchased': 'text',
+        'note': 'textarea'
     }
 }
